@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    padding: 50px;
+}
+
+#home {
+    background-color: lightblue;
+}
+
+#hero {
+    background-color: lightgreen;
+}
+
+#about {
+    background-color: lightgray;
+}
