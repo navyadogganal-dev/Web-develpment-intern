@@ -128,3 +128,66 @@ footer{
     padding:20px;
     margin-top:30px;
 }
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Animation */
+nav ul li a {
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #8A6FB6;
+    transform: translateY(-2px);
+}
+
+/* Hero Section Enhancement */
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Card Hover Effect */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* Skill Hover Effect */
+.skill {
+    transition: all 0.3s ease;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+/* Input Focus Effect */
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid #B7A4E0;
+}
+
+/* Button Animation */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #B7E4C7;
+    transform: scale(1.05);
+}
+
+/* Footer Enhancement */
+footer {
+    letter-spacing: 1px;
+}
