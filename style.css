@@ -227,3 +227,45 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+/* Mobile Devices */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
+/* Desktop Devices */
+@media screen and (min-width: 1025px) {
+    .container {
+        width: 60%;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
