@@ -243,7 +243,8 @@ nav{
     }
 
     button {
-        width: 100%;
+        width: auto;
+        display: inline-block;
     }
 }
 
@@ -269,3 +270,20 @@ nav{
         font-size: 40px;
     }
 }
+.hero {
+    text-align: center;
+}
+
+#changeBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6c63ff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    
