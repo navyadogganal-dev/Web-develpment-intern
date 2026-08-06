@@ -285,5 +285,66 @@ nav{
     cursor: pointer;
     font-size: 16px;
 }
+/* ===========================
+   Projects Section
+=========================== */
+
+#projects {
+    padding: 60px 10%;
+    background: #fdf6f9;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 36px;
+    color: #6d214f;
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 300px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.project-card h3 {
+    color: #8e44ad;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    display: inline-block;
+    text-decoration: none;
+    background: #8e44ad;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.project-card a:hover {
+    background: #6d214f;
+}
 
     
