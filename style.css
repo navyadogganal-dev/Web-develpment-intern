@@ -346,7 +346,6 @@ nav{
 .project-card a:hover {
     background: #6d214f;
 }
-/* ================= Skills Section ================= */
 
 .skills-section {
     padding: 70px 10%;
@@ -380,7 +379,7 @@ nav{
     transform: translateY(-5px);
 }
 
-/* ================= Resume Section ================= */
+
 
 .resume-section {
     padding: 70px 10%;
@@ -402,7 +401,6 @@ nav{
     background: #2e7d32;
 }
 
-/* ================= Experience Section ================= */
 
 .experience-section {
     padding: 70px 10%;
@@ -435,9 +433,7 @@ nav{
 .experience-card li {
     margin-bottom: 10px;
 }
-/* =========================
-   DAY 10 - CONTACT SECTION
-   ========================= */
+
 
 .contact-section {
     padding: 80px 20px;
@@ -453,7 +449,7 @@ nav{
     align-items: center;
 }
 
-/* Contact Information */
+
 
 .contact-info h2 {
     font-size: 34px;
@@ -480,7 +476,7 @@ nav{
     color: #555;
 }
 
-/* Social Links */
+
 
 .social-links {
     display: flex;
@@ -504,7 +500,7 @@ nav{
     background: #d6bfa8;
 }
 
-/* Contact Form */
+
 
 .contact-form {
     background: #ffffff;
@@ -548,7 +544,7 @@ nav{
     resize: vertical;
 }
 
-/* Submit Button */
+
 
 .contact-form button {
     width: 100%;
@@ -569,7 +565,6 @@ nav{
     background: #725a45;
 }
 
-/* Form Validation Message */
 
 #formMessage {
     margin-top: 15px;
@@ -577,7 +572,7 @@ nav{
     font-weight: bold;
 }
 
-/* Mobile Responsive */
+
 
 @media (max-width: 768px) {
 
@@ -596,6 +591,115 @@ nav{
     .social-links {
         justify-content: center;
     }
+}
+
+
+/* Smooth Scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+nav a {
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    transform: translateY(-2px);
+    opacity: 0.7;
+}
+
+
+
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.card,
+.project-card,
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover,
+.project-card:hover,
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Image Hover Effect */
+
+img {
+    transition: transform 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+section {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+
+
+.social-links a {
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+
+
+
+
+.contact-form input,
+.contact-form textarea {
+    transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    transform: translateY(-2px);
+}
+
+
+/* General Link Transition */
+
+a {
+    transition: all 0.3s ease;
 }
 
     
